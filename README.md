@@ -12,10 +12,20 @@ The result of the project is a question-answering system based on a QA-GNN archi
 
 ## APPROACH 1 : LM-ONLY QA MODEL ##
 
+![lm_only](Media/LLM.png)
+<p align="center">
+Fig 1: LM Architecture
+</p>
+
 This approach only utilizes LM models for question-answering problems.
 - Run LMQA_final.ipynb
 
 ## APPROACH 2 : QAGNN [LM+KG QA MODEL] ##
+
+![lm_only](Media/QAGNN.png)
+<p align="center">
+Fig 2: QA-GNN Architecture
+</p>
 
 This approach implements the QA-GNN model for question-answering problems.
 
@@ -47,3 +57,15 @@ python preprocess.py
 
 - Check saved_model folder for epoch-wise predictions on test and metric csv
 - Check logs/ for training status.
+
+## Results ##
+
+![lm_only](Media/Example1.png)
+<p align="center">
+Fig 3: Sample Question 1 deep-dive
+</p>
+
+![lm_only](Media/Example2.png)
+<p align="center">
+Fig 4: Sample Question 2 deep-dive
+</p>
