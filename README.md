@@ -2,9 +2,9 @@
 
 The project was completed as part of the CSE6240 course at Georgia Tech. It was completed while working with Manoj Parmar, Sanchita Porwal, and Shreyas Verma.
 
-The final project report can be found here: [Link](final_report.pdf)
+The final project report can be found here: [Link](https://github.com/pchoudhary23/Question-Answering-using-QA-GNN-with-external-context-fusion/blob/main/Report.pdf)
 
-The final project presentation can be found here: [Link]()
+The final project presentation can be found here: [Link](https://github.com/pchoudhary23/Question-Answering-using-QA-GNN-with-external-context-fusion/blob/main/Presentation.pdf)
 
 The result of the project is a question-answering system based on a QA-GNN architecture with the utilization of external context. QA-GNN involves using language models (LMs) to encode QA context and retrieve a knowledge subgraph (KG) from the QA entities. The joint representation of the QA context and the KG subgraph is passed through the graph neural network (GNN) module for reasoning. The final model incorporates language understanding through LMs and structured reasoning through KGs.
 
