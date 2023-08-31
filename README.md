@@ -1,0 +1,2 @@
+# Question-Answering-using-QA-GNN-with-external-context-fusion
+Question answering system based on QA-GNN architecture with utilization of external context. QA-GNN involves using language models(LMs) to encode QA context and retrieve a knowledge subgraph (KG) from the QA entities. The joint representation of QA context and KG sub graph is passed through graph neural network(GNN) module for reasoning.
