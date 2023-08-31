@@ -6,7 +6,7 @@ The final project report can be found here: [Link](https://github.com/pchoudhary
 
 The final project presentation can be found here: [Link](https://github.com/pchoudhary23/Question-Answering-using-QA-GNN-with-external-context-fusion/blob/main/Presentation.pdf)
 
-The result of the project is a question-answering system based on a QA-GNN architecture with the utilization of external context. QA-GNN involves using language models (LMs) to encode QA context and retrieve a knowledge subgraph (KG) from the QA entities. The joint representation of the QA context and the KG subgraph is passed through the graph neural network (GNN) module for reasoning. The final model incorporates language understanding through LMs and structured reasoning through KGs.
+The result of the project is a question-answering system based on a QA-GNN architecture with the utilization of external context. QA-GNN involves using language models (LMs) to encode QA context and retrieve a knowledge subgraph (KG) from the QA entities. The joint representation of the QA context and the KG subgraph is passed through the graph neural network (GNN) module for reasoning. The final model incorporates language understanding through LMs, structured reasoning through KGs, and external context on LM entities through knowledge facts.
 
 
 
@@ -59,6 +59,8 @@ python preprocess.py
 - Check logs/ for training status.
 
 ## Results ##
+
+Below are few examples highlighting the impact of incorporating external context (knowledge facts) in question-answering task. The final model is a QA-GNN with additional external context.
 
 ![lm_only](Media/Example1.png)
 <p align="center">
